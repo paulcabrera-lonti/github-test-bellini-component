@@ -1,38 +1,31 @@
 {
   "type": "component",
-  "name": "github-test",
+  "name": "github-test1",
   "children": [
     {
       "name": "h1",
-      "nodeName": "h1",
-      "elementId": "",
-      "attributes": [
-        {
-          "property": "data-id",
-          "value": "Tjpksq"
-        }
-      ],
       "classList": [],
-      "conditionalClasses": [],
-      "conditionalStyles": [],
-      "contentType": "text",
-      "displayExpression": "",
-      "events": {},
-      "iterate": {
-        "array": "",
-        "variable": "",
-        "trackByIndex": false
-      },
-      "styles": [],
       "children": [
         {
           "name": "text",
-          "nodeName": "text",
           "textContent": "h1",
           "evaluate": false
+        },
+        {
+          "name": "Badge",
+          "nodeName": "bln-badge",
+          "attributes": [
+            {
+              "property": "core",
+              "value": ""
+            }
+          ],
+          "classList": [],
+          "children": [],
+          "type": "core-component",
+          "expressions": []
         }
-      ],
-      "comments": ""
+      ]
     }
   ],
   "variables": [],
@@ -43,5 +36,7 @@
     {
       "path": "test.css"
     }
-  ]
+  ],
+  "icon": null,
+  "iconType": null
 }
