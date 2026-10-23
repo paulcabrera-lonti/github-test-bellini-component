@@ -1,6 +1,6 @@
 {
   "type": "component",
-  "name": "github-test1",
+  "name": "github-test2",
   "children": [
     {
       "name": "h1",
